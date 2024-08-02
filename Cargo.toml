@@ -1,0 +1,13 @@
+[package]
+name = "snake_game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.0"
+rand = "0.8.5"
+
+[[bin]]
+edition = "2021"
+name = "snake_game"
+path = "src/main.rs"
